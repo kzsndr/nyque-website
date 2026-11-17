@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Contact NYQUE for sizes, orders and returns. Store hours, FAQ and size guide.">
+<meta name="keywords" content="contact, size guide, FAQ, sneaker store">
+<meta name="author" content="NYQUE">
+<title>Contact | NYQUE</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="top-bar"><a href="contact.html#store">Store Locator</a><a href="contact.html#store">Track Order</a><a href="contact.html#faq">Help</a></div>
+<header class="site-header">
+<a class="logo" href="index.html"><img src="logo.png" alt="NYQUE logo"></a>
+<button id="menuBtn" aria-label="Open menu">&#9776;</button>
+<nav id="nav" aria-label="Main menu"><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="about.html">About</a><a href="contact.html" class=active>Contact</a></nav>
+<a class="cart" href="shop.html" aria-label="Cart">Cart <span id="cartCount">0</span></a>
+</header>
+<main id="main">
+<section><div class="container"><p class="kicker">GET IN TOUCH</p><h1>Contact us</h1></div></section>
+<section style="padding-top:0"><div class="container split"><div><h2>Send a message</h2>
+<form id="contactForm" novalidate><input type="text" placeholder="Your name" aria-label="Your name" data-label="name" required><input type="email" placeholder="Your email" aria-label="Your email" data-label="email" required><textarea rows="5" placeholder="Your message" aria-label="Your message" data-label="message" required></textarea><button type="submit">Send message</button></form><p id="contactMsg" class="msg" aria-live="polite"></p></div>
+<div id="store"><h2>Store &amp; hours</h2><p>Open Monday to Sunday, 08.00-21.00.<br>Email: <a class="link-ext" href="mailto:hello@nyque.com">hello@nyque.com</a></p></div></div></section>
+<section id="size"><div class="container"><h2>Size guide</h2><table><tr><th>EU</th><th>US (men)</th><th>Foot length (cm)</th></tr><tr><td>40</td><td>7</td><td>25.0</td></tr><tr><td>41</td><td>8</td><td>25.7</td></tr><tr><td>42</td><td>9</td><td>26.5</td></tr><tr><td>43</td><td>10</td><td>27.3</td></tr></table></div></section>
+<section id="faq"><div class="container"><h2>FAQ</h2><details><summary>How long does delivery take?</summary><p>Usually 2-5 working days in Indonesia.</p></details><details><summary>Can I pay on delivery?</summary><p>Yes, COD is available for most areas.</p></details><details><summary>Can I return my shoes?</summary><p>Yes, within 14 days if unworn.</p></details></div></section>
+</main>
+<footer class="site-footer">
+<section class="news">
+<h2>Stay in the loop</h2>
+<p>Subscribe to get early access to new drops, exclusive deals, and members-only offers straight to your inbox.</p>
+<form id="newsForm" novalidate><input type="email" id="newsEmail" placeholder="Enter your email address" aria-label="Email address" data-label="email address" required><button type="submit">Subscribe</button></form>
+<p id="newsMsg" class="msg" aria-live="polite"></p>
+</section>
+<div class="foot-grid">
+<div><img src="logo.png" alt="NYQUE logo"><p>We make our website bland so our shoes can stand out.</p>
+<p class="social"><a href="https://www.facebook.com" target="_blank" rel="noopener">f</a><a href="https://www.linkedin.com" target="_blank" rel="noopener">in</a><a href="https://x.com" target="_blank" rel="noopener">tw</a><a href="https://www.youtube.com" target="_blank" rel="noopener">yt</a><a href="https://www.instagram.com" target="_blank" rel="noopener">ig</a></p></div>
+<div><h4>About</h4><a href="about.html">About Us</a><a href="about.html#terms">Terms &amp; Conditions</a><a href="about.html#privacy">Privacy Policy</a><a href="index.html">Sitemap (Home)</a></div>
+<div><h4>Customer Care</h4><a href="contact.html#faq">FAQ</a><a href="contact.html#size">Size Guide</a><a href="about.html#returns">Return Policy</a><a href="contact.html">Contact Us</a></div>
+<div><h4>Contact</h4><a href="contact.html#store">Store Locator</a><a href="contact.html#store">Track Order</a><a href="contact.html#store">Mon - Sun, 08.00-21.00</a><a href="mailto:hello@nyque.com">hello@nyque.com</a></div>
+</div>
+<div class="bottom"><span>&copy; 2026 NYQUE. All rights reserved.</span><span class="pay"><span>VISA</span><span>MASTERCARD</span><span>GOPAY</span><span>OVO</span><span>COD</span></span></div>
+</footer>
+<div id="toast" class="toast" role="status"></div>
+<script src="script.js"></script>
+</body>
+</html>

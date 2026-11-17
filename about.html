@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Learn about NYQUE, a sneaker brand built for people who want to be different.">
+<meta name="keywords" content="about NYQUE, sneaker brand, our story, return policy">
+<meta name="author" content="NYQUE">
+<title>About | NYQUE</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Barlow:wght@400;600;700&family=Montserrat:wght@700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<a class="skip" href="#main">Skip to content</a>
+<div class="top-bar"><a href="contact.html#store">Store Locator</a><a href="contact.html#store">Track Order</a><a href="contact.html#faq">Help</a></div>
+<header class="site-header">
+<a class="logo" href="index.html"><img src="logo.png" alt="NYQUE logo"></a>
+<button id="menuBtn" aria-label="Open menu">&#9776;</button>
+<nav id="nav" aria-label="Main menu"><a href="index.html">Home</a><a href="shop.html">Shop</a><a href="about.html" class=active>About</a><a href="contact.html">Contact</a></nav>
+<a class="cart" href="shop.html" aria-label="Cart">Cart <span id="cartCount">0</span></a>
+</header>
+<main id="main">
+<section><div class="container"><p class="kicker">ABOUT US</p><h1>Built different</h1>
+<p class="lead">NYQUE started with one idea: shoes should be the loudest thing you wear. We design every pair by hand, mixing street art, sport tech and a little chaos.</p></div></section>
+<section><div class="container split"><div><h2>What we stand for</h2><ul class="check"><li><strong>Creativity</strong> - no two designs look alike.</li><li><strong>Comfort</strong> - foam soles built for all-day wear.</li><li><strong>Community</strong> - members get early access to drops.</li></ul></div>
+<img src="shoe3.jpg" alt="Sub-Zero Stride, a frosted blue sneaker"></div></section>
+<section><div class="container"><h2>The policies</h2>
+<div class="panel" id="terms"><h3>Terms &amp; Conditions</h3><p>By ordering from NYQUE you agree that prices are shown in US dollars and may change without notice.</p></div><br>
+<div class="panel" id="privacy"><h3>Privacy Policy</h3><p>We only use your email to send NYQUE news. We never sell your details.</p></div><br>
+<div class="panel" id="returns"><h3>Return Policy</h3><p>Unworn shoes can be returned or exchanged within 14 days of delivery.</p></div>
+<p style="margin-top:1.5rem">Curious about design in sneakers? Visit <a class="link-ext" href="https://en.wikipedia.org/wiki/Sneaker_collecting" target="_blank" rel="noopener">Wikipedia: Sneaker collecting</a>.</p></div></section>
+</main>
+<footer class="site-footer">
+<section class="news">
+<h2>Stay in the loop</h2>
+<p>Subscribe to get early access to new drops, exclusive deals, and members-only offers straight to your inbox.</p>
+<form id="newsForm" novalidate><input type="email" id="newsEmail" placeholder="Enter your email address" aria-label="Email address" data-label="email address" required><button type="submit">Subscribe</button></form>
+<p id="newsMsg" class="msg" aria-live="polite"></p>
+</section>
+<div class="foot-grid">
+<div><img src="logo.png" alt="NYQUE logo"><p>We make our website bland so our shoes can stand out.</p>
+<p class="social"><a href="https://www.facebook.com" target="_blank" rel="noopener">f</a><a href="https://www.linkedin.com" target="_blank" rel="noopener">in</a><a href="https://x.com" target="_blank" rel="noopener">tw</a><a href="https://www.youtube.com" target="_blank" rel="noopener">yt</a><a href="https://www.instagram.com" target="_blank" rel="noopener">ig</a></p></div>
+<div><h4>About</h4><a href="about.html">About Us</a><a href="about.html#terms">Terms &amp; Conditions</a><a href="about.html#privacy">Privacy Policy</a><a href="index.html">Sitemap (Home)</a></div>
+<div><h4>Customer Care</h4><a href="contact.html#faq">FAQ</a><a href="contact.html#size">Size Guide</a><a href="about.html#returns">Return Policy</a><a href="contact.html">Contact Us</a></div>
+<div><h4>Contact</h4><a href="contact.html#store">Store Locator</a><a href="contact.html#store">Track Order</a><a href="contact.html#store">Mon - Sun, 08.00-21.00</a><a href="mailto:hello@nyque.com">hello@nyque.com</a></div>
+</div>
+<div class="bottom"><span>&copy; 2026 NYQUE. All rights reserved.</span><span class="pay"><span>VISA</span><span>MASTERCARD</span><span>GOPAY</span><span>OVO</span><span>COD</span></span></div>
+</footer>
+<div id="toast" class="toast" role="status"></div>
+<script src="script.js"></script>
+</body>
+</html>
